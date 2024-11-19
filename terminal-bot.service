@@ -1,0 +1,14 @@
+[Unit]
+Description=Telegram Terminal Bot
+After=network.target
+
+[Service]
+Type=simple
+User=keshav
+WorkingDirectory=/home/keshav/Music/gamebot
+ExecStart=/usr/bin/python3 /home/keshav/Music/gamebot/terminal_bot.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target 
