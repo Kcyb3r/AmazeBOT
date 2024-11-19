@@ -45,5 +45,8 @@
    - send ' /help ' cmd for help.
 
 
+        
+     ![Screenshot from 2024-11-20 03-04-48](https://github.com/user-attachments/assets/2cd1ccc3-aa9f-4bc2-984c-1076e557b543)
 
-     - Made by Kcyb3r ...
+
+     - Made by ❤️ Kcyb3r ...
