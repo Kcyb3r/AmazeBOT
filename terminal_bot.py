@@ -18,7 +18,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # List of authorized user IDs
-AUTHORIZED_USERS = [6660767908]  # Replace with your actual User ID
+AUTHORIZED_USERS = [__ENTER-your-telegram-user-ID___]  # Replace with your actual User ID   {Imp}_____________________1
 
 # Global variable for the PID file
 PID_FILE = 'bot.pid'
@@ -73,7 +73,7 @@ def main():
             TOKEN = file.read().strip()
 
         # Initialize bot with persistence
-        application = Application.builder().token('7965725790:AAHWY_MXI4OnTx5G0vQcP2zMc2c5IN_i0Lk').build()
+        application = Application.builder().token('_____ENTER-your-telegram-bot-token____').build()  {Imp}--------------2
 
         # Add command handlers
         application.add_handler(CommandHandler("start", start))
