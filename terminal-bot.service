@@ -4,9 +4,9 @@ After=network.target
 
 [Service]
 Type=simple
-User=keshav
-WorkingDirectory=/home/keshav/Music/gamebot
-ExecStart=/usr/bin/python3 /home/keshav/Music/gamebot/terminal_bot.py
+User=USERNAME                               #IMP
+WorkingDirectory=/HOME/../../../            #IMP     {example : /home/kcyb3r/documents/Termo-bot     #folder}
+ExecStart=/usr/bin/python3 /HOME/../../../terminal_bot.py  #IMP {example: /home/kcyb3/documents/Termo-bot/terminal_bot.py   #file}
 Restart=always
 RestartSec=10
 
